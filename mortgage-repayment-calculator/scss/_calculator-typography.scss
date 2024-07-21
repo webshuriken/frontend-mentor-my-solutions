@@ -13,6 +13,28 @@ $calculator-font-family: (
   }
 }
 
+// Font sizes
+$calculator-font-sizes: (
+  '15': '1.5',
+  '25': '2.5'
+);
+
+@each $breakpoint, $breakpointvalue in $grid-breakpoints {
+  @include media-breakpoint-up($breakpoint) {
+    @each $size, $value in $calculator-font-sizes {
+      @if $breakpoint == 'xs' {
+        .calc-font-#{$size} {
+          font-size: #{$value}rem;
+        }
+      } @else {
+        .calc-font-#{$breakpoint}-#{$size} {
+          font-size: #{$value}rem;
+        }
+      }
+    }
+  }
+}
+
 // all font related styles are in this file
 $calculator-heading-sizes: (
   'calc-h1': (
