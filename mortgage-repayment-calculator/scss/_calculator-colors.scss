@@ -1,4 +1,5 @@
 :root {
+  --primary-lime: hsl(61, 70%, 52%);
   --primary-red: hsl(4, 69%, 50%);
   --neutral-white: hsl(0, 0%, 100%);
   --neutral-slate-100: hsl(202, 86%, 94%);
@@ -6,6 +7,11 @@
   --neutral-slate-500: hsl(200, 26%, 54%);
   --neutral-slate-700: hsl(200, 24%, 40%);
   --neutral-slate-900: hsl(202, 55%, 16%);
+}
+
+// TEXT COLOURS
+.primary-lime {
+  color: var(--primary-lime);
 }
 
 .primary-red {
@@ -34,4 +40,37 @@
 
 .neutral-slate-900 {
   color: var(--neutral-slate-900);
+}
+
+// BACKGROUND COLOURS
+.bg-primary-lime {
+  background-color: var(--primary-lime);
+}
+
+.bg-primary-red {
+  background-color: var(--primary-red);
+}
+
+.bg-neutral-white {
+  background-color: var(--neutral-white);
+}
+
+.bg-neutral-slate-100 {
+  background-color: var(--neutral-slate-100);
+}
+
+.bg-neutral-slate-300 {
+  background-color: var(--neutral-slate-300);
+}
+
+.bg-neutral-slate-500 {
+  background-color: var(--neutral-slate-500);
+}
+
+.bg-neutral-slate-700 {
+  background-color: var(--neutral-slate-700);
+}
+
+.bg-neutral-slate-900 {
+  background-color: var(--neutral-slate-900);
 }
