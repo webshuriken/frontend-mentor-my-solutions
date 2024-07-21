@@ -80,3 +80,11 @@ body {
   font-family: 'plus-jakartasans-medium';
   font-size: 16px;
 }
+
+// Custom styles
+.border-t-3-lime {
+  border-top: 3px solid var(--primary-lime);
+}
+.border-b-1-slate-700 {
+  border-bottom: 1px solid var(--neutral-slate-700);
+}
