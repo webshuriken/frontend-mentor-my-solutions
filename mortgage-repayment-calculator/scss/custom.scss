@@ -76,16 +76,6 @@ $primary: hsl(61, 70%, 52%);
 @import "calculator-typography";
 @import "calculator-card-spacing";
 
-:root {
-  --primary-red: hsl(4, 69%, 50%);
-  --neutral-white: hsl(0, 0%, 100%);
-  --neutral-slate-100: hsl(202, 86%, 94%);
-  --neutral-slate-300: hsl(203, 41%, 72%);
-  --neutral-slate-500: hsl(200, 26%, 54%);
-  --neutral-slate-700: hsl(200, 24%, 40%);
-  --neutral-slate-900: hsl(202, 55%, 16%);
-}
-
 body {
   font-family: 'plus-jakartasans-medium';
   font-size: 16px;
