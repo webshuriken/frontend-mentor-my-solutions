@@ -12,7 +12,14 @@ $calculator-padding-sizes: (
   ),
   '14': (
     'pt': 1.4,
-  )
+  ),
+  '20': (
+    'pt': 2,
+    'pb': 2
+  ),
+  '25': (
+    'p': 2.5,
+  ),
 );
 
 @each $breakpoint, $breakpoingvalue in $grid-breakpoints {
@@ -59,6 +66,12 @@ $calculator-margin-sizes: (
   ),
   '7-5': (
     'mb': 0.75,
+  ),
+  '12-5': (
+    'mt': 1.25,
+  ),
+  '20': (
+    'mt': 2
   ),
 );
 
