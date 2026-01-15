@@ -16,7 +16,8 @@ $calculator-font-family: (
 // Font sizes
 $calculator-font-sizes: (
   '15': '1.5',
-  '25': '2.5'
+  '25': '2.5',
+  '35': '3.5'
 );
 
 @each $breakpoint, $breakpointvalue in $grid-breakpoints {
