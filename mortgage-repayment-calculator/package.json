@@ -1,0 +1,15 @@
+{
+  "name": "mortgage-repayment-calculator",
+  "version": "1.0.0",
+  "description": "mortgage calculator",
+  "license": "ISC",
+  "author": "Carlos E Alford",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
