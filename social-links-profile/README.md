@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/webshuriken/frontend-mentor-my-solutions/tree/main/social-links-profile)
-- Live Site URL: [Live Site](https://webshuriken.github.io/frontend-mentor-my-solutions/social-links-profile/)
+- Solution URL: [Solution](https://github.com/carlosealford/frontend-mentor-my-solutions/tree/main/social-links-profile)
+- Live Site URL: [Live Site](https://carlosealford.github.io/frontend-mentor-my-solutions/social-links-profile/)
 
 ## My process
 

@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/webshuriken/frontend-mentor-my-solutions/calculator-app)
-- Live URL: [Summary Component Site](https://webshuriken.github.io/frontend-mentor-my-solutions/calculator-app/)
+- Solution URL: [Github Repo](https://github.com/carlosealford/frontend-mentor-my-solutions/calculator-app)
+- Live URL: [Summary Component Site](https://carlosealford.github.io/frontend-mentor-my-solutions/calculator-app/)
 
 ## My process
 

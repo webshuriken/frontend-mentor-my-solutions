@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/webshuriken/tip-calculator)
-- Live URL: [Tip Calculator Site](https://webshuriken.github.io/tip-calculator/)
+- Solution URL: [Github Repo](https://github.com/carlosealford/tip-calculator)
+- Live URL: [Tip Calculator Site](https://carlosealford.github.io/tip-calculator/)
 
 ## My process
 

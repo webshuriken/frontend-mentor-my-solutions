@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links :link:
 
-- Solution URL: [Github Repo](https://github.com/webshuriken/social-proof-section)
-- Live URL: [Social Proof Section Site](https://webshuriken.github.io/social-proof-section/)
+- Solution URL: [Github Repo](https://github.com/carlosealford/social-proof-section)
+- Live URL: [Social Proof Section Site](https://carlosealford.github.io/social-proof-section/)
 
 ## My process
 

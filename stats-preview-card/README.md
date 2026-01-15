@@ -42,8 +42,8 @@ Here are two screenshot of the final card.
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/webshuriken/stats-preview-card-component)
-- Live URL: [Stats Preview Card Site](https://webshuriken.github.io/stats-preview-card-component/)
+- Solution URL: [Github Repo](https://github.com/carlosealford/stats-preview-card-component)
+- Live URL: [Stats Preview Card Site](https://carlosealford.github.io/stats-preview-card-component/)
 
 ## My process
 
