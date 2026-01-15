@@ -11,16 +11,16 @@
   <title>Frontend Mentor | Mortgage repayment calculator</title>
 </head>
 <body>
-
-  <article class="container mortgage-calculator-card">
+<div class="calc-p-md-25">
+  <article class="container rounded-4 overflow-hidden mortgage-calculator-card">
     <div class="row">
       <!-- LEFT SIDE of calculator -->
-      <div class="col-12 col-lg-7 calc-card-section calc-card-section-left">
+      <div class="col-12 col-lg-7 calc-card-section calc-card-section-left calc-p-md-25">
         <header class="row">
           <div class="col-12 col-md-10">
             <h1 class="calc-h1 calc-font-bold">Mortgage Calculator</h1>
           </div>
-          <div class="col-12 col-md-2">
+          <div class="col-12 d-md-grid justify-content-md-end col-md-2">
             <button class="calc-btn-clear">Clear All</button>
           </div>
         </header>
@@ -28,7 +28,7 @@
         <div class="row">
           <!-- calculator form start -->
           <form class="calc-form" action="">
-            <div class="row">
+            <div class="row calc-pt-md-6">
               <label for="mortgage-amount" class="col-12 col-form-label">Mortgage Amount</label>
               <div class="col-12 input-group calc-input-group has-validation">
                 <span class="input-group-text calc-input-group-text calc-font-bold">£</span>
@@ -37,19 +37,21 @@
               </div>
             </div>
             <div class="row">
-              <label for="mortgage-term" class="col-12 col-form-label">Mortgage Term</label>
-              <div class="col-12 input-group calc-input-group has-validation">
-                <input type="number" class="form-control calc-form-control calc-font-bold" id="mortgage-term" name="mortgage-term" required value="25">
-                <span class="input-group-text calc-input-group-text calc-font-bold">years</span>
-                <div class="invalid-feedback">This field is required</div>
+              <div class="col-12 col-md-6">
+                <label for="mortgage-term" class="col-12 col-form-label">Mortgage Term</label>
+                <div class="col-12 input-group calc-input-group has-validation">
+                  <input type="number" class="form-control calc-form-control calc-font-bold" id="mortgage-term" name="mortgage-term" required value="25">
+                  <span class="input-group-text calc-input-group-text calc-font-bold">years</span>
+                  <div class="invalid-feedback">This field is required</div>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <label for="mortgage-rate" class="col-12 col-form-label">Interest Rate</label>
-              <div class="col-12 input-group calc-input-group has-validation">
-                <input type="number" class="form-control calc-form-control calc-font-bold" id="mortgage-rate" name="mortgage-rate" required value="5.25">
-                <span class="input-group-text calc-input-group-text calc-font-bold">%</span>
-                <div class="invalid-feedback">This field is required</div>
+              <div class="col-12 col-md-6 pt-3 pt-md-0">
+                <label for="mortgage-rate" class="col-12 col-form-label">Interest Rate</label>
+                <div class="col-12 input-group calc-input-group has-validation">
+                  <input type="number" class="form-control calc-form-control calc-font-bold" id="mortgage-rate" name="mortgage-rate" required value="5.25">
+                  <span class="input-group-text calc-input-group-text calc-font-bold">%</span>
+                  <div class="invalid-feedback">This field is required</div>
+                </div>
               </div>
             </div>
             <fieldset class="row pb-3">
@@ -66,7 +68,7 @@
                 </div>
               </div>
             </fieldset>
-            <button class="btn btn-primary rounded-pill calc-submit-btn" type="submit">
+            <button class="btn btn-primary rounded-pill calc-submit-btn calc-w-md-51-5 calc-mt-md-12-5" type="submit">
               <img class="img-fluid align-bottom" src="assets/images/icon-calculator.svg" alt="calculator icon">
               <span class="col-10 calc-font-bold">Calculate Repayments</span>
             </button>
@@ -75,22 +77,22 @@
         </div>
       </div>
       <!-- RIGHT SIDE of calculator -->
-      <div class="col-12 col-lg-5 position-relative calc-card-section calc-card-section-right calc-pb-10">
+      <div class="col-12 col-lg-5 position-relative calc-card-section calc-card-section-right calc-pb-10 calc-p-md-25">
         <!-- Empty results start -->
         <div class="row text-center calc-results-section calc-hide">
           <img class="img-fluid calc-results-image" src="assets/images/illustration-empty.svg" alt="calculator with pen, money sign icons">
           <h2 class="col-12 pt-3 neutral-white calc-h1 calc-font-bold">Results shown here</h2>
-          <p class="col-12 calc-pt-6 neutral-slate-300">Complete the form and click “calculate repayments” to see what your monthly repayments would be.</p>
+          <p class="col-12 calc-pt-6 neutral-slate-300 mb-md-0">Complete the form and click “calculate repayments” to see what your monthly repayments would be.</p>
         </div>
         <!-- Empty results end -->
         <!-- Completed results start -->
         <div class="row calc-results-section calc-show calc-pb-10">
           <h2 class="col-12 neutral-white calc-h1 calc-font-bold">Your results</h2>
           <p class="col-12 pt-2 neutral-slate-300">Your results are shown below based on the information you provided. To adjust the results, edit the form and click “calculate repayments” again.</p>
-          <div class="col-12 py-2 px-4">
+          <div class="col-12 py-2 px-4 calc-mt-md-20">
             <section class="row rounded shadow-sm border-t-3-lime calc-pt-14 px-1 bg-neutral-slate-900">
               <p class="col-12 mb-0 neutral-slate-300">Your monthly repayments</p>
-              <p class="col-12 calc-font-25 calc-font-bold calc-pb-7-5 primary-lime border-b-1-slate-700">£1,797.74</p>
+              <p class="col-12 calc-font-25 calc-font-md-35 calc-font-bold calc-pb-7-5 primary-lime border-b-1-slate-700">£1,797.74</p>
               <p class="col-12 calc-mb-3 neutral-slate-300">Total you'll repay over the term</p>
               <p class="col-12 calc-font-bold calc-font-15 neutral-white">£539,322.94</p>
             </section>
@@ -100,11 +102,12 @@
       </div>
     </div>
   </article>
+</div>
   <footer class="attribution">
     <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. </p>
     <p>Coded by <a href="https://carloselalford.com">Web Shuriken</a>.</p>
   </footer>
-  <img src="design/mobile-design-completed.jpg" alt="" style="position: absolute; top: 0; left: 0; width: 100%; height: auto; opacity: .4">
+  <img src="design/tablet-design-completed.jpg" alt="" style="position: absolute; top: 0; left: 0; width: 100%; height: auto; opacity: .4">
   <!-- <img src="design/mobile-design-completed.jpg" alt="" style="position: absolute; top: 0; left: 0; width: 100%; height: auto; opacity: .4"> -->
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
