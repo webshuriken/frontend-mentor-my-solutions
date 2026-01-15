@@ -1,0 +1,21 @@
+$calculator-widths-sizes: (
+  '51-5': (
+    'width': 51.5%,
+  )
+);
+
+@each $breakpoint, $breakpoingvalue in $grid-breakpoints {
+  @include media-breakpoint-up($breakpoint) {
+    @each $size, $sides in $calculator-widths-sizes {
+      @if $breakpoint == 'xs' {
+        .calc-w-#{$size} {
+          width: map-get($sides, 'width');
+        }
+      } @else {
+        .calc-w-#{$breakpoint}-#{$size} {
+            width: map-get($sides, 'width');
+        }
+      }
+    }
+  }
+}
