@@ -1,6 +1,9 @@
 // folling the same pattern used by bootstrap
 // {property}{sides}-{breakpoint}-{size}
 $calculator-padding-sizes: (
+  '5': (
+    'pt': 0.5,
+  ),
   '6': (
     'pt': 0.6,
   ),
@@ -9,16 +12,25 @@ $calculator-padding-sizes: (
   ),
   '10': (
     'pb': 1,
+    'pt': 1,
   ),
   '14': (
     'pt': 1.4,
+  ),
+  '16': (
+    'pb': 1.6,
+  ),
+  '18': (
+    'pl': 1.8,
   ),
   '20': (
     'pt': 2,
     'pb': 2
   ),
   '25': (
-    'p': 2.5,
+    'px': 2.5,
+    'py': 2.5,
+    'pt': 2.5,
   ),
 );
 
@@ -38,6 +50,12 @@ $calculator-padding-sizes: (
               padding-bottom: $value + rem;
             } @else if $side == 'pl' {
               padding-left: $value + rem;
+            } @else if $side == 'px' {
+              padding-right: $value + rem;
+              padding-left: $value + rem;
+            } @else if $side == 'py' {
+              padding-top: $value + rem;
+              padding-bottom: $value + rem;
             }
           }
         } @else {
@@ -52,6 +70,12 @@ $calculator-padding-sizes: (
               padding-bottom: $value + rem;
             } @else if $side == 'pl' {
               padding-left: $value + rem;
+            } @else if $side == 'px' {
+              padding-left: $value + rem;
+              padding-right: $value + rem;
+            } @else if $side == 'py' {
+              padding-top: $value + rem;
+              padding-bottom: $value + rem;
             }
           }
         }
