@@ -132,7 +132,9 @@
 /* url: https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/ */
 .theme-selector-panel input[type=range] {
   grid-area: themerange;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   width: 100%;
   background: transparent;
   /* Style the thumb */
@@ -402,6 +404,4 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
